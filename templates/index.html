@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="floating-hearts-bg" id="floating-hearts-bg"></div>
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <button id="music-btn" class="glow-btn"><i class="fas fa-play"></i></button>
+        <audio id="bg-music" loop>
+            <source src="/static/music/HAPPY BIRTHDAY TO YOU  PIANO INSTRUMENTAL  BEST HAPPY BITHDAY MUSIC 2021.mp3"
+                type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-content fade-in">
+            <h1 class="hero-title">Happy Birthday My Love 🎂❤️</h1>
+            <p class="hero-subtitle">To the most beautiful person in my life</p>
+            <h2 class="hero-name">Elsa</h2>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown-section" id="countdown">
+        <div class="glass-container fade-in scroll-element">
+            <h2>Time Until Your Special Day ❤️</h2>
+            <div class="countdown-timer" id="timer">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <p>Days</p>
+                </div>
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <p>Hours</p>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <p>Minutes</p>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Love Letter Section -->
+    <section class="love-letter-section" id="letter">
+        <div class="glass-container fade-in scroll-element">
+            <h2>My Dearest Elsa,</h2>
+            <p class="letter-text">
+                Every moment with you feels like a beautiful dream. You bring so much light, joy, and love into my life.
+                On this special day, I want you to know how truly cherished you are. May this year bring you as much
+                happiness
+                as you have given me. I love you more than words can express...
+            </p>
+            <p class="letter-signature">Forever Yours,</p>
+            <p class="letter-name">Aayush</p>
+        </div>
+    </section>
+
+    <!-- Memory Gallery -->
+    <section class="memory-gallery" id="gallery">
+        <h2 class="section-title fade-in scroll-element">
+            Our Precious Memories 📸
+        </h2>
+
+        <div class="gallery-grid">
+            <img src="/static/images/elsa 2.jpg" alt="elsa2">
+            <img src="/static/images/elsa 3.jpg" alt="elsa3">
+            <img src="/static/images/elsa 4.jpg" alt="elsa4">
+            <img src="/static/images/elsa1.jpg" alt="elsa1">
+            <img src="/static/images/elsa6.jpg" alt="elsa6">
+            <img src="/static/images/elsa7.jpg" alt="elsa7">
+            <img src="/static/images/elsa8.jpg" alt="elsa8">
+            <img src="/static/images/elsa9.jpg" alt="elsa9">
+            <img src="/static/images/elsa10.jpg" alt="elsa10">
+            <img src="/static/images/elsa11.jpg" alt="elsa11">
+            <img src="/static/images/elsa12.jpg" alt="elsa12">
+            <img src="/static/images/elsa13.jpg" alt="elsa13">
+            <img src="/static/images/elsa14.jpg" alt="elsa14">
+            <img src="/static/images/elsa15.jpg" alt="elsa15">
+            <img src="/static/images/elsa16.jpg" alt="elsa16">
+            <img src="/static/images/elsa17.png" alt="elsa17">
+            <img src="/static/images/elsa19.jpg" alt="elsa19">
+            <img src="/static/images/elsa20.jpg" alt="elsa20">
+        </div>
+        <style>
+            img {
+                width: 200px;
+                height: 200px;
+                border-width: 2px;
+                border-style: solid;
+                border-color: black;
+            }
+        </style>
+    </section>
+
+    <!-- Birthday Wishes -->
+    <section class="birthday-wishes" id="wishes">
+        <h2 class="section-title fade-in scroll-element">Wishes Just For You 💌</h2>
+        <div class="wishes-container fade-in scroll-element" id="wishes-list">
+            <div class="wish-card">
+                <p>"You are my today and all of my tomorrows. Happy Birthday honey! 💕"</p>
+            </div>
+            <div class="wish-card">
+                <p>"To the queen of my heart, wishing you the most magical birthday! 👑💖"</p>
+            </div>
+        </div>
+        <div class="add-wish fade-in scroll-element">
+            <input type="text" id="new-wish" placeholder="Write a short wish...">
+            <button id="add-wish-btn" class="glow-btn">Add Wish ✨</button>
+        </div>
+    </section>
+
+    <!-- Surprise Section -->
+    <section class="surprise-section" id="surprise">
+        <div class="glass-container text-center fade-in scroll-element">
+            <button id="surprise-btn" class="glow-btn large-btn">Click for a Surprise 💝</button>
+            <div id="hidden-surprise" class="hidden">
+                <h2 class="surprise-text">I love you more than words can say.</h2>
+                <img src="/static/images/elsa21.jpg" alt="elsa21">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created with <i class="fas fa-heart"></i> for Elsa</p>
+        <p class="footer-signature">Forever yours ❤️</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+
+</html>
